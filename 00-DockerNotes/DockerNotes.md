@@ -11,6 +11,12 @@ docker run -p 49160:8080 -d troy/node-web-app
 # View running containers
 docker ps
 
+# View all containers
+docker ps -a
+
+# Start existing container
+docker start <containerid>
+
 # View the logs of the container
 docker logs <container id>
 
