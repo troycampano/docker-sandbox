@@ -9,6 +9,7 @@ docker images
 # Run the container
 
 docker run -p 49160:8080 -d troy/node-web-app
+# docker run -dit troy/node-web-app
 
 # View running containers
 
